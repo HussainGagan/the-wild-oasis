@@ -1,0 +1,73 @@
+INSERT INTO cabins (
+        "name",
+        "maxCapacity",
+        "regularPrice",
+        "discount",
+        "description",
+        "image"
+    )
+VALUES
+    (
+        001,
+        2,
+        250,
+        50,
+        'Small lakeside cabin for a cozy weekend stay',
+        'https://iajdicjucmnllpiflzzg.supabase.co/storage/v1/object/public/cabin-images/cabin-001.jpg'
+    ),
+    (
+        002,
+        3,
+        400,
+        60,
+        'Quaint cabin surrounded by large oak trees',
+        'https://iajdicjucmnllpiflzzg.supabase.co/storage/v1/object/public/cabin-images/cabin-002.jpg'
+    ),
+    (
+        003,
+        3,
+        700,
+        75,
+        'Luxury homestead with historical roots',
+        'https://iajdicjucmnllpiflzzg.supabase.co/storage/v1/object/public/cabin-images/cabin-003.jpg'
+    ),
+    (
+        004,
+        5,
+        525,
+        20,
+        'Affordable family unit with double loft',
+        'https://iajdicjucmnllpiflzzg.supabase.co/storage/v1/object/public/cabin-images/cabin-004.jpg'
+    ),
+    (
+        005,
+        7,
+        1250,
+        90,
+        'High end gathering place with large chimney fireplace',
+        'https://iajdicjucmnllpiflzzg.supabase.co/storage/v1/object/public/cabin-images/cabin-005.jpg'
+    ),
+    (
+        006,
+        5,
+        625,
+        50,
+        'Relax in this modernly renovated a-frame design',
+        'https://iajdicjucmnllpiflzzg.supabase.co/storage/v1/object/public/cabin-images/cabin-006.jpg'
+    ),
+    (
+        007,
+        5,
+        700,
+        70,
+        'Modern living for large family with a view of the mountains',
+        'https://iajdicjucmnllpiflzzg.supabase.co/storage/v1/object/public/cabin-images/cabin-007.jpg'
+    ),
+    (
+        008,
+        2,
+        250,
+        25,
+        'Perfect little hideaway just to get away from it all',
+        'https://iajdicjucmnllpiflzzg.supabase.co/storage/v1/object/public/cabin-images/cabin-008.jpg'
+    );
